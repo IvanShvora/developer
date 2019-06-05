@@ -1,0 +1,212 @@
+.container{
+    
+    width: 800px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 60px;
+    width: 1400px;
+    align-items: center;
+   color: white;
+   
+}
+.img{
+    background-image: url(logo.png.png);
+    width:50px ;
+    height:50px ;
+    background-size: 100%;
+    margin: 20px;
+    border-radius: 50px;
+}
+.home{
+    margin: 40px;
+}
+.myResume{
+    margin: 40px;
+}
+.portfolio{
+    margin: 40px;
+}
+.blog{
+    margin: 40px;
+}
+.contact{
+    margin: 40px;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+  
+    width: 800px;
+    height: 320px;
+}
+.avatar{
+    background-image: url(ava.png);
+    width: 200px;
+    height: 280px;
+    margin: 20px;
+
+}
+.about{
+    width: 450px;
+    height: 280px;
+    margin: 20px;
+    
+    
+}
+.buttonblock{
+    background-color:white;
+    margin: 20px;
+    color: red;
+    
+    height: 30px;
+    border: 1px solid red;
+     
+}
+.buttonblock:hover{
+background-color: red;
+    margin: 20px;
+    color: white;
+    height: 30px;
+    border: 1px solid red;
+}
+.buttononblock{
+    background-color:white;
+    margin: 20px;
+    color: red;
+    
+    height: 30px;
+    border: 1px solid red;
+}
+.buttononblock:hover{
+    background-color: red;
+        margin: 20px;
+        color: white;
+        height: 30px;
+        border: 1px solid red;
+    }
+
+.sectiondown{
+    margin: 20px;
+    width: 800px;
+    height: 320px;
+}
+.academic{
+    margin: 0;
+    color: gray
+}
+.lincoln{
+display: flex;
+flex-direction:row;
+justify-content: space-between;
+}
+.universety{
+    display: flex;
+flex-direction:row;
+justify-content: space-between;
+}
+.aside{
+    
+    width:  600px; 
+    height:608px ;
+   
+}
+.addcontainer{
+    display: flex;
+    flex-direction: row;
+    width: 1400px;
+    
+}
+.contactMe{
+    margin: 30px;
+}
+.email{
+    background-image: url(email.png);
+    width: 30px;
+    height: 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+   
+    
+}
+.mobile{
+    background-image: url(tel.png);
+    width: 30px;
+    height: 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+.site{
+    background-image: url(comp.png);
+    width: 30px;
+    height: 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+.emailText{
+    display: flex;
+    flex-direction: row;
+    
+}
+.mobileText{
+    display: flex;
+    flex-direction: row;
+}
+.siteText{
+    display: flex;
+    flex-direction: row;
+}
+.skills{
+    margin: 30px;
+}
+.php{
+    margin: 30px;  
+}
+.star{
+    background-image: url(star.png);
+    width: 100px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.htmlcss{
+    margin: 30px;
+    
+}
+.starhtml{
+    background-image: url(html.png);
+    width: 100px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.javaScript{
+    margin: 30px;
+    height: 10px;
+}
+.starscript{
+    background-image: url(script.png);
+    width: 100px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 30px;
+    width: 1400px;
+    align-items: center;
+   color: white;
+}
+body{
+    margin: 4px;
+}

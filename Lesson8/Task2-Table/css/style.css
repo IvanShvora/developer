@@ -1,0 +1,28 @@
+.col {
+    position: relative;
+    background-color: rgb(43, 62, 80);
+    color: white;
+    border: 1px solid white;
+    
+}
+
+.col span {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.row {
+    height: 50px;
+    border: 1px solid white;
+}
+
+.bigblock {
+    height: 225px;
+}
+
+.smalblock {
+    height: 150px;
+}

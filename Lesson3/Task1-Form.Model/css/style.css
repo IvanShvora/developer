@@ -1,0 +1,48 @@
+h1{
+	margin: 0;
+	text-align: center;
+}
+
+header{
+	background: #ffcc00;
+	height: 100px;
+	width: 100%;
+	text-align: center;
+line-height: 100px;
+}
+section{
+	background: #ffff99;
+	height: 670px;
+	width: 100%;
+	
+	
+}
+.container{
+	clear: both;
+	text-align: right;
+
+}
+label{
+	float: left;
+	width: 200px;
+}
+.main{
+	float: left;
+	width: 400px;
+}
+.tein{
+	
+	width: 250px;
+}
+.more{
+	width: 320px;
+}
+.rs{
+	width: 242px;
+}
+.su{
+	width: 300px;
+}
+.br{
+	height: 10px;
+}

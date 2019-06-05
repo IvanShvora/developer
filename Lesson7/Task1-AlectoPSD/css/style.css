@@ -1,0 +1,86 @@
+body{
+    background-image: url(Photo.png);
+    background-size: 100%;
+}
+.container{
+    display: flex;
+    height: 700px;
+   
+    flex-direction: column;
+    text-align: center;
+}
+.up{
+    Display: flex;
+    
+    flex-direction: column;
+    height: 700px;
+    
+}
+.alectoAdd{
+    Display: flex;
+    
+    flex-direction: row;
+    height: 600px;
+    column-gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.leftArrow{
+    background-image: url(Left_arrow.png);
+   background-repeat: no-repeat;
+   background-size: 40%;
+    height:50px;
+    width: 40px; 
+}
+.alecto{
+    background-image: url(alectois.png);
+    background-repeat: no-repeat;
+    font-size: 100%;
+    height:60px;
+    width: 460px; 
+}
+.rightArrow{
+    background-image: url(Right_Arrow.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+     height:50px;
+     width: 40px; 
+}
+
+.buttonblock{
+    padding: 10px 20px;
+    border-radius: 25px;
+    background: transparent;
+    color: white;
+    outline: none;
+    border: 1px solid #fff;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.alectoButton{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.downup{
+    Display: flex;
+    
+    flex-direction: row;
+    
+    justify-content: center;
+    text-align: unset;
+    height: 55px;
+}
+
+.downArrow{
+    background-image: url(Down_Arrow.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+     height:50px;
+     width: 40px; 
+
+
+}

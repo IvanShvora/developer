@@ -1,0 +1,29 @@
+ *{
+  border: 2px dotted grey; }
+
+body {
+  font: 100%;
+  color: red;
+  background:black; }
+
+div {
+  background: red;
+  color: burlywood;
+  border: 1px solid grey; }
+
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px; }
+
+.box2 {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  background: grey; }
+
+.link {
+  color: green; }
+
+.link:hover {
+  color: red; }
+
+/*# sourceMappingURL=style.css.map */

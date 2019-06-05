@@ -1,0 +1,37 @@
+// @import "reset";
+// // Variables
+// $font-stack: Helvetica, sans-serif;
+// $primary-color: red;
+// $radius:20px;
+// @mixin border-radius($border-radius){
+//     -webkit-border-radius:$border-radius;
+//     -moz-border-radius: $border-radius;
+// @if $border-radius >10{
+//     background: grey;
+
+// }
+// }
+// body{
+//     font: 100% $font-stack;
+//     color: $primary-color;
+//     background: black;
+// }
+// div{
+//     background: $primary-color;
+//     color: burlywood;
+//     border: 1px solid grey;
+// }
+// .box{
+//     @include border-radius(10px);
+// }
+// .box2{
+//     @include border-radius($radius);
+
+// }
+// .link{
+//     color: green;
+//     &:hover {
+//         color: red;
+//     }
+// }
+

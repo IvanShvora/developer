@@ -1,0 +1,184 @@
+body{
+background-image: url(Photo.png);
+background-size: 100%;
+background-repeat: no-repeat;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 1425px;
+    height: 670px;
+    
+}
+.header{
+    display: flex;
+    height: 150px;
+    margin: 40px;
+    justify-content: start;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center
+}
+.aboutUs{
+width: 138px;
+height: 22px;
+color: #ffffff;
+font-family: "Proxima Nova";
+font-size: 32px;
+font-weight: 700;
+line-height: 24px;
+margin: 10px;
+}
+.aboutText{
+    width: 466px;
+    height: 31px;
+    color: #949494;
+    font-family: "Proxima Nova";
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+   
+}
+.section{
+    display: flex;
+    height: 250px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+    flex-wrap: nowrap;   
+}
+.johnA{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fotoA{
+    background-image: url(john1.png);
+    width: 132px;
+    height: 132px;
+}
+.textA{
+width: 67px;
+height: 13px;
+color: #ffffff;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+margin: 15px;
+}
+.textAa{
+    width: 147px;
+height: 31px;
+color: #949494;
+font-family: "Proxima Nova";
+font-size: 12px;
+font-weight: 300;
+line-height: 20px;
+}
+.johnB{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fotoB{
+    background-image: url(john2.png);
+    width: 131px;
+    height: 131px;
+}
+.textB{
+    width: 67px;
+    height: 13px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 15px;
+    }
+    .textBb{
+        width: 160px;
+    height: 31px;
+    color: #949494;
+    font-family: "Proxima Nova";
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    }
+.johnC{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fotoC{
+    background-image: url(john3.png);
+    width: 135px;
+    height: 135px;
+}
+.textC{
+    width: 67px;
+    height: 13px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 15px;
+    }
+    .textCc{
+        width: 147px;
+    height: 31px;
+    color: #949494;
+    font-family: "Proxima Nova";
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    }
+.johnD{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fotoD{
+    background-image: url(john4.png);
+    width: 135px;
+    height: 135px;
+}
+.textD{
+    width: 67px;
+    height: 13px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 15px;
+    }
+    .textDd{
+        width: 147px;
+    height: 31px;
+    color: #949494;
+    font-family: "Proxima Nova";
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    }
+    .footer{
+        display: flex;
+        height: 150px;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: nowrap; 
+    }
+    .watchmore{
+    padding: 10px 20px;
+    border-radius: 25px;
+    background: #a70083;
+    color: white;
+    outline: none;
+    border: 1px solid #54007d;
+    font-family: 'Raleway', sans-serif;
+    margin: 30px;
+    }
