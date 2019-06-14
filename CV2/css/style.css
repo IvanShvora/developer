@@ -1,0 +1,89 @@
+.container{
+    padding-left: 30px;
+    padding-top: 30px;
+    display: flex;
+}
+.ava{
+    background-image: url(ava.jpg);
+    width:250px ;
+    height: 300px;
+    background-size: 100%;
+}
+.avaContact{
+    display: flex;
+}
+.contact{
+margin-left: 30px;
+}
+h1{
+    margin-top: 0px;
+    margin-bottom:  0px;
+}
+.tel{
+    margin: 0;
+}
+.email{
+    margin-bottom:  3px;
+    color: red;
+}
+.sait{
+    margin-top: 0px;
+    
+}
+a{
+    color: red;
+}
+.section{
+    width: 660px;
+    
+}
+.information{
+    margin-top: 40px;
+}
+.educetion{
+    color: red;
+}
+.college{
+    display: flex;
+flex-direction:row;
+justify-content: space-between;
+}
+.associates{
+    margin: 0;
+    color: gray;
+}
+.aside{
+    width: 300px;
+    padding-left: 40px;
+    
+}
+.skills{
+    margin-top: 0px;
+
+}
+.software{
+    color: red;
+    margin-top: 40px;
+}
+h4{
+    margin-bottom: 2px;
+}
+.star{
+    background-image: url(star.png);
+    width: 100px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.programming{
+    color: red;
+}
+.line{
+    border: 1px solid rgb(207, 200, 200);
+    width: 660px;
+    margin-top: 30px;
+}
+.experience{
+color: red;
+margin-top: 20px;
+}
