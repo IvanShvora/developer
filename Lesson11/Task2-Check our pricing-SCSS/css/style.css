@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono");
+body {
+  background-color: #ffffff;
+  font-family: "Roboto" sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+.card {
+  text-align: center;
+  border: none;
+  box-shadow: 0 0 20px rgba(160, 158, 158, 0.5);
+}
+.card .card-price .dollar {
+  font-size: 32px;
+  font-weight: 900;
+}
+.card .card-price .cost {
+  font-weight: 900;
+  font-size: 56px;
+}
+.card .card-price .period {
+  color: #8492af;
+  font-weight: 3;
+  font-size: 32px;
+}
+
+.card-body ul {
+  list-style: none;
+  font-size: 16px;
+  padding-inline-start: 20px;
+}
+.card-body ul li {
+  color: #8492af;
+  padding-bottom: 10px;
+}
+.card-body ul li .logo {
+  padding-right: 10px;
+}
+
+.footer-title {
+  padding-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #8492af;
+}
+
+.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px 40px;
+  border-radius: 50px;
+  background-color: #5584ff;
+  border: none;
+  color: white;
+  font-size: 19.2px;
+}
+
+.button:active {
+  transform: scale(0.95);
+}
+
+.button:hover {
+  background-color: #8492af;
+}

@@ -1,3 +1,7 @@
+header{
+    background: black;
+    height: 40px;
+}
 .container{
     padding-left: 30px;
     padding-top: 30px;
@@ -33,7 +37,7 @@ h1{
 a{
     color: red;
 }
-.section{
+section{
     width: 660px;
     
 }
@@ -52,7 +56,7 @@ justify-content: space-between;
     margin: 0;
     color: gray;
 }
-.aside{
+aside{
     width: 300px;
     padding-left: 40px;
     
@@ -86,4 +90,8 @@ h4{
 .experience{
 color: red;
 margin-top: 20px;
+}
+footer{
+    background: black;
+    height: 50px;
 }

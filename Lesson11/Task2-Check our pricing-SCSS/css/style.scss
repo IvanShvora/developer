@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono');
+        $bg-color:#ffffff;
+        $bg-color-btn:#5584ff;
+        $text-color:#8492af;
+        $style-text:'Roboto' sans-serif;
+        $text-size:16px;
+        $align:center;
+        $t-wight:600;
+        $padding:20px;
+        @mixin d-flex {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        @mixin square {
+            text-align: $align;
+            border: none;
+            box-shadow: 0 0 20px rgba(160, 158, 158, 0.5);
+        }
+         body {
+            background-color: $bg-color;
+            font-family: $style-text;
+        }
+        
+        .container {
+            @include d-flex;
+        }
+        
+        .header{
+            text-align: $align;
+            padding-top: $padding*5;
+            padding-bottom: $padding*2;
+        }
+        
+        .card {
+            .card-price {
+                .dollar {
+                    font-size: $text-size*2;
+                    font-weight: $t-wight+300;
+                }
+                .cost {
+                    font-weight: $t-wight+300;
+                    font-size: $text-size*3.5;
+                }
+                .period {
+                    color: $text-color;
+                    font-weight: $t-wight/200;
+                    font-size: $text-size*2;
+                }
+            }
+            @include square;
+        }
+        
+        .card-body {
+            ul {
+                list-style: none;
+                font-size: $text-size;
+                padding-inline-start: 20px;
+                li {
+                    color: $text-color;
+                    padding-bottom: 10px;
+                    .logo {
+                        padding-right: $padding/2;
+                    }
+                }
+            }
+        }
+        
+        .footer-title {
+            padding-top: $padding*2;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: $align;
+            color: $text-color;
+        }
+        
+        .button {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 8px 40px;
+            border-radius: 50px;
+            background-color: $bg-color-btn;
+            border: none;
+            color: white;
+            font-size: $text-size*1.2;
+        }
+        
+        .button:active {
+            transform: scale(.95);
+        }
+        
+        .button:hover {
+            background-color: #8492af;
+        }

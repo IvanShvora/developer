@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
 }
-.header{
+header{
     display: flex;
     flex-direction: row;
     background-color: black;
@@ -38,7 +38,7 @@
 .contact{
     margin: 40px;
 }
-.section{
+section{
     display: flex;
     flex-direction: row;
   
@@ -110,7 +110,7 @@ justify-content: space-between;
 flex-direction:row;
 justify-content: space-between;
 }
-.aside{
+aside{
     
     width:  600px; 
     height:608px ;
@@ -122,7 +122,7 @@ justify-content: space-between;
     width: 1400px;
     
 }
-.contactMe{
+.contact-Me{
     margin: 30px;
 }
 .email{
@@ -150,16 +150,16 @@ justify-content: space-between;
     background-repeat: no-repeat;
     
 }
-.emailText{
+.contact-email{
     display: flex;
     flex-direction: row;
     
 }
-.mobileText{
+.contact-mobile{
     display: flex;
     flex-direction: row;
 }
-.siteText{
+.contact-site{
     display: flex;
     flex-direction: row;
 }
